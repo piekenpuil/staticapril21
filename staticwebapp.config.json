@@ -8,6 +8,11 @@
             "route":"/test",
             "rewrite":"/test.html",
             "allowedRoles": ["HR"]
+        },
+        {
+            "route":"/login",
+            "rewrite":"/.auth/login/twitter"
         }
+
     ]
 }
