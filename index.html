@@ -8,6 +8,19 @@
 </head>
 <body>
     <h1>This is working !!!</h1>
-    <h2>welcome</h2>
+    <h2>welcome ! </h2>
+    <div id="msg"></div>
 </body>
+
+<script>
+
+    (fetch('./api/testfunction').then(r=>r.text()).then(txt=>{
+
+        let div = document.querySelector("#msg");
+        div.textContent = txt;
+
+    }))
+
+</script>
+
 </html>
