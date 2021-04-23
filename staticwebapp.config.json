@@ -1,0 +1,13 @@
+{
+    "routes": [
+        {
+            "route": "/demo",
+            "rewrite": "/test.html"
+        },
+        {
+            "route":"/test",
+            "rewrite":"/test.html",
+            "allowedRoles": ["HR"]
+        }
+    ]
+}
